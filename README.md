@@ -13,6 +13,19 @@ Repositori ini berfungsi sebagai pengingat pribadi dan referensi cepat, mencakup
 
 ---
 
+## 📚 Daftar Isi
+
+- [📘 Git](./git/git-cheatsheet.md)
+- [💻 Terminal / CLI](./terminal/bash-zsh.md)
+- [🐍 Python](./python/python-tips.md)
+- [🐳 Docker](./docker/docker-commands.md)
+- [🧰 VS Code](./vscode/vscode-shortcuts.md)
+
+> 📌 Topik akan bertambah seiring waktu. Semua isi disusun dalam format markdown untuk kemudahan akses dan pembacaan.
+
+---
+
+
 ## 📁 Struktur Direktori (contoh)
 ```
 cheat-sheet-education/
