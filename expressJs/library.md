@@ -4,23 +4,23 @@
 
 ## **Daftar Isi**
 
-* [Middleware Umum](#1-middleware-umum)
-* [Body Parsing](#2.-Body-Parsing)
-* [Authentication & Security](#3.-Authentication-&-Security)
-* [Database](#4.-Database)
-* [File Upload](#5.-File-Upload)
-* [Utility](#5.-Utility)
-* [Session & Cookies](#7.-Session-&-Cookies)
-* [Rate Limiting & Proteksi API](#8.-Rate-Limiting-&-Proteksi-API)
-* [Template Engine](#9.-Template-Engine)
-* [Real-time Communication](#10.-Real-time-Communication)
-* [Routing & Modularization](#11.-Routing-&-Modularization)
-* [Dokumentasi API](#12.-Dokumentasi-API)
-* [Task Scheduling](#13.-Task-Scheduling)
+* [Middleware Umum](#-1-middleware-umum)
+* [Body Parsing](#2-Body-Parsing)
+* [Authentication & Security](#3-authentication--security)
+* [Database](#4-Database)
+* [File Upload](#5-File-Upload)
+* [Utility](#5-Utility)
+* [Session & Cookies](#7-Session--Cookies)
+* [Rate Limiting & Proteksi API](#8-Rate-Limiting--Proteksi-API)
+* [Template Engine](#9-Template-Engine)
+* [Real-time Communication](#10-Real-time-Communication)
+* [Routing & Modularization](#11-Routing--Modularization)
+* [Dokumentasi API](#12-Dokumentasi-API)
+* [Task Scheduling](#13-Task-Scheduling)
 
 3. **Authentication & Security**
 
-## 🌐 1. **Middleware Umum**
+## 1. **Middleware Umum**
 
 Middleware adalah inti dari Express. Banyak library yang bisa digunakan untuk memproses request dan response.
 
@@ -140,7 +140,7 @@ app.listen(3000);
 
 ---
 
-## 🗂 2. **Body Parsing**
+## 2. **Body Parsing**
 
 Secara default Express hanya menangani request sederhana. Untuk parsing data body:
 
@@ -231,7 +231,7 @@ console.log(match); // true
 
 ---
 
-## 💾 4. **Database**
+## 4. **Database**
 
 ### 4.1 `mongoose`
 
@@ -300,7 +300,7 @@ const user = await prisma.user.create({
 
 ---
 
-## 📦 5. **File Upload**
+## 5. **File Upload**
 
 ### `multer`
 
@@ -328,7 +328,7 @@ app.listen(3000);
 
 ---
 
-## 🛠 6. **Utility**
+## 6. **Utility**
 
 ### 6.1 `dotenv`
 
@@ -389,7 +389,7 @@ app.listen(3000);
 * **Upload File**: `multer`
 * **Utility**: `dotenv`, `express-validator`
 
-## 🔄 7. Session & Cookies
+## 7. Session & Cookies
 
 ### 7.1 express-session
 
@@ -433,7 +433,7 @@ res.send("Cookie diset!");
 
 ```
 
-## 🌐 8. Rate Limiting & Proteksi API
+## 8. Rate Limiting & Proteksi API
 
 ### 8.1 express-rate-limit
 
@@ -468,7 +468,7 @@ import hpp from "hpp";
 app.use(hpp());
 ```
 
-## 🎨 9. Template Engine
+## 9. Template Engine
 
 Jika butuh server-side rendering (SSR):
 
@@ -504,7 +504,7 @@ res.render("index", { name: "Eko" });
 });
 ```
 
-## 📡 10. Real-time Communication
+## 10. Real-time Communication
 
 ### 10.1 socket.io
 
@@ -529,7 +529,7 @@ socket.emit("welcome", "Selamat datang!");
 server.listen(3000);
 ```
 
-## 🧭 11. Routing & Modularization
+## 11. Routing & Modularization
 
 ### 11.1 express-async-handler
 
@@ -548,7 +548,7 @@ res.json(data);
 }));
 ```
 
-## 🧾 12. Dokumentasi API
+## 12. Dokumentasi API
 
 ### 12.1 swagger-ui-express
 
@@ -572,7 +572,7 @@ apis: ["./routes/*.js"]
 app.use("/docs", swaggerUi.serve, swaggerUi.setup(specs));
 ```
 
-## 🗜 13. Task Scheduling
+## 13. Task Scheduling
 
 ### 13.1 node-cron
 
