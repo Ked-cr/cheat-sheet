@@ -6,7 +6,6 @@ Repositori ini berfungsi sebagai pengingat pribadi dan referensi cepat, mencakup
 
 - ✅ Git & Version Control
 - 💻 Terminal / Command Line (Bash, Zsh, dsb.)
-- 🐍 Python & scripting
 - 🐳 Docker & tools DevOps
 - 🛠️ Tools produktivitas (VS Code, tmux, dsb.)
 - ⚙️ Shortcut & trik umum
@@ -17,7 +16,7 @@ Repositori ini berfungsi sebagai pengingat pribadi dan referensi cepat, mencakup
 
 - [📘 Git](./git/git-cheatsheet.md)
 - [💻 Terminal / CLI](./terminal/bash-zsh.md)
-- [🐍 Python](./python/python-tips.md)
+- [🪔 express js](./expressJs/mengenal-express.md)
 - [🐳 Docker](./docker/docker-commands.md)
 - [🧰 VS Code](./vscode/vscode-shortcuts.md)
 
@@ -25,8 +24,8 @@ Repositori ini berfungsi sebagai pengingat pribadi dan referensi cepat, mencakup
 
 ---
 
-
 ## 📁 Struktur Direktori (contoh)
+
 ```
 cheat-sheet-education/
 ├── git/
@@ -42,7 +41,6 @@ cheat-sheet-education/
 └── README.md
 ```
 
-
 > 📌 *Catatan: Struktur ini akan bertambah seiring berjalannya waktu dan topik yang dipelajari.*
 
 ---
@@ -57,14 +55,14 @@ cheat-sheet-education/
 
 ## 🛠️ Penggunaan
 
-Silakan gunakan, salin, atau modifikasi isi dari repo ini untuk kebutuhan belajar atau referensi pribadi.  
+Silakan gunakan, salin, atau modifikasi isi dari repo ini untuk kebutuhan belajar atau referensi pribadi.
 Saya harap ini juga bermanfaat bagi siapa pun yang kebetulan menemukannya.
 
 ---
 
 ## 📎 Lisensi
 
-Lisensi: [MIT](LICENSE)  
+Lisensi: [MIT](LICENSE)
 Konten bebas digunakan dan dikembangkan ulang, dengan atribusi.
 
 ---
