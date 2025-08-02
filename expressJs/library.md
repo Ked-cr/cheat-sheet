@@ -6,7 +6,7 @@
 
 * [Middleware Umum](#1-middleware-umum)
 * [Body Parsing](#2.-Body-Parsing)
-* [Authentication & Security](#🔑-3.-Authentication-&-Security)
+* [Authentication & Security](#3.-Authentication-&-Security)
 * [Database](#4.-Database)
 * [File Upload](#5.-File-Upload)
 * [Utility](#5.-Utility)
@@ -17,6 +17,8 @@
 * [Routing & Modularization](#11.-Routing-&-Modularization)
 * [Dokumentasi API](#12.-Dokumentasi-API)
 * [Task Scheduling](#13.-Task-Scheduling)
+
+3. **Authentication & Security**
 
 ## 🌐 1. **Middleware Umum**
 
@@ -165,7 +167,7 @@ app.listen(3000);
 
 ---
 
-## 🔑 3. **Authentication & Security**
+## 3. **Authentication & Security**
 
 ### 3.1 `jsonwebtoken`
 
