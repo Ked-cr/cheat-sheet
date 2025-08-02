@@ -5,6 +5,10 @@
 ## **Daftar Isi**
 
 * [Middleware Umum](#-1-middleware-umum)
+  * [morgan](#11-morgan)
+  * [cors](#12-cors)
+  * [helmet](#13-helmet)
+  * [compression](#14-compression)
 * [Body Parsing](#2-Body-Parsing)
 * [Authentication & Security](#3-authentication--security)
 * [Database](#4-Database)
