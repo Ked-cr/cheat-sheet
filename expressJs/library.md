@@ -6,7 +6,7 @@
 
 * [Middleware Umum](#1-middleware-umum)
 * [Body Parsing](#2.-Body-Parsing)
-* [Authentication & Security](#3.-Authentication-&-Security)
+* [Authentication & Security](#🔑-3.-Authentication-&-Security)
 * [Database](#4.-Database)
 * [File Upload](#5.-File-Upload)
 * [Utility](#5.-Utility)
