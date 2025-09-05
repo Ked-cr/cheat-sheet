@@ -59,7 +59,7 @@ catatan:
   * `src/app` halaman path awal `/`
   * `src/app/{pages}/page.tsx` file halaman browser
   * `src/components` folder root tempat komponent
-    * `ui` folder component pihak ketiga
+    * `ui` folder component pihak ketiga (opsional)
     * `costum` folder component yang dibangun
     * `layout` folder layout (opsional)
     * `widget` berisi komponent yang lebih komplek seperti form,diagram
